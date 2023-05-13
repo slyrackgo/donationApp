@@ -1,4 +1,4 @@
-# Ethers.js dApp
+# MetaInvest dApp
 The application that allows you to invest to a startups with cryptocurrencies through MetaMask and support buissness ideas that  cameout to IPO. After donations is collected you will be holder of their stocks, they will be shown in a website(UI))
 To run the dApp:
 1. Clone the repository
