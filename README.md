@@ -1,5 +1,5 @@
 # MetaInvest dApp
-Welcome to MetaInvest dApp, an innovative platform that lets you invest in startups using cryptocurrencies and support business ideas that have the potential to go public. By using MetaMask, you can donate to the startups of your choice and become a shareholder of their stocks. With a simple user interface, you can easily keep track of your investments and watch as they grow.
+MetaInvest dApp is a revolutionary platform that lets you invest in startups using cryptocurrencies and become a shareholder of their stocks. User-friendly interface and MetaMask integration make investing accessible to everyone.
 
 
 To run the dApp:
