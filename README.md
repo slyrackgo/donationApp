@@ -9,7 +9,7 @@ MetaInvest dApp is more than just another website. I am combining the power of c
 
 To run the dApp:
 1. Clone the repository
-1. `yarn`
-1. `yarn start`
+2. `yarn`
+3. `yarn start`
 
 
