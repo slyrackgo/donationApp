@@ -1,33 +1,24 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.18;
 
-
-
-
-contract investStartup {
-    uint256 public investment1;
-    uint256 public investment2;
-
-    mapping(address=>uint256) totalShare;
-    
-    constructor () {
-        investment1 = 0;
-        investment2 = 0;
-    }
+contract InvestStartup {
+    mapping(address => uint256) public investment1;
+    mapping(address => uint256) public investment2;
+    mapping(address => uint256) public totalShare;
 
     function firstInvestment(uint256 newNum) public {
-        investment1 = newNum;
+        investment1[msg.sender] = newNum;
     }
-    
+
     function secondInvestment(uint256 newNum) public {
-        investment2 = newNum;
+        investment2[msg.sender] = newNum;
     }
-    
-    function newTotal(address user) public view returns(uint256){
+
+    function sumInvestments() public {
+        totalShare[msg.sender] = investment1[msg.sender] + investment2[msg.sender];
+    }
+
+    function getTotalShares(address user) public view returns (uint256) {
         return totalShare[user];
-    }
-    
-    function sumInvestments(address user) public  returns (uint256) {
-        return totalShare[user] = investment1 + investment2;
     }
 }
